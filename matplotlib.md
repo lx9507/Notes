@@ -3,7 +3,7 @@
 ## About the incompatability of differernt versions of libpng from python
 
 Matplotlib is built depending on the libpng of X11, which is usually different from that of the system, used by Python.
-This may cause a bug in IPython notebook when using “%matplotlib inline” to plot a image inline.
+This may cause a bug in IPython notebook when using “%matplotlib inline” to plot an image inline.
 The solution is to build matplotlib avoiding the libpng of X11, just using that of the system.
 Here is a very simple way without modifying the environment variables:
 
