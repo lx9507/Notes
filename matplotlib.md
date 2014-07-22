@@ -1,6 +1,6 @@
 # Matplotlib Error
 
-## About the incompatability of differernt versions of libpng from python
+#### About the incompatability of differernt versions of libpng from python
 
 Matplotlib is built depending on the libpng of X11, which is usually different from that of the system, used by Python.
 This may cause a bug in IPython notebook when using “%matplotlib inline” to plot an image inline.
