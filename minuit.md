@@ -1,4 +1,8 @@
-# 5.14.4 Reliability of Minuit Error Estimates
+# Minuit notation
+
+From RootUserGuide.
+
+## 5.14.4 Reliability of Minuit Error Estimates
 
 Minuit always carries around its own current estimates of the parameter errors, which it will print out on request, no matter how accurate they are at any given point in the execution. For example, at initialization, these estimates are just the starting step sizes as specified by the user. After a HESSE step, the errors are usually quite accurate, unless there has been a problem. Minuit, when it prints out error values, also gives some indication of how reliable it thinks they are. For example, those marked CURRENT GUESS ERROR are only working values not to be believed, and APPROXIMATE ERROR means that they have been calculated but there is reason to believe that they may not be accurate.
 
