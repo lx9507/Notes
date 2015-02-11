@@ -1,6 +1,6 @@
 # Minuit notation
 
-From RootUserGuide.
+From RootUserGuide. (Version: May 2013)
 
 ## 5.14.4 Reliability of Minuit Error Estimates
 

@@ -23,3 +23,5 @@ def printf(format, *args):
 
 printf("%d x %d is %d\n", 6, 7, 6*7)
 ```
+
+From [wikipedia](http://en.wikipedia.org/wiki/Printf_format_string).
